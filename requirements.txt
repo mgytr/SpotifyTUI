@@ -4,3 +4,5 @@ requests
 spotipy
 python-dotenv
 lrctoolbox
+unidic-lite
+cutlet
