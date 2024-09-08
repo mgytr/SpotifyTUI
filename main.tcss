@@ -1,0 +1,63 @@
+ControlBar {
+    dock: bottom;
+    margin-bottom: 1;
+    outline: solid lightgreen;
+    padding: 1;
+    height: 5;
+}
+
+ControlBar Horizontal {
+    width: auto;
+}
+ControlBar #nameandartists {
+    border: none;
+    dock: left;
+}
+ControlBar Button {
+    height: 3;
+    margin: 0;
+    border: none;
+    margin-left: 2;
+    min-width: 6;
+}
+ControlBar #timeslide .slider--slider {
+    color: lightgreen;
+}
+ControlBar #timeslide:focus {
+    border: tall lightgreen;
+}
+Main #lyric {
+    display: none;
+}
+Main .active {
+    display: block;
+}
+Underline > .underline--bar {
+    color: lightgreen;
+}
+Main Container Button {
+    height: 3;
+    margin: 0;
+    border: none;
+    margin-left: 2;
+    min-width: 6;
+}
+VerticalScroll {
+    scrollbar-color: lightgreen;
+    scrollbar-color-hover: lightgreen 80%;
+    /*scrollbar-background-hover: rgb(20,20,20);*/
+    scrollbar-color-active: rgb(107, 255, 132);
+}
+Main .scrollsongs {
+    height: 85%;
+    margin-top: 1;
+}
+Main .scrollsongs Button {
+    margin-bottom: 1;
+}
+Input:focus {
+    border: lightgreen tall;
+}
+LoadingIndicator {
+    color: lightgreen;
+}
