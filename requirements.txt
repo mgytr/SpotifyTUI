@@ -1,0 +1,6 @@
+textual
+textual_slider
+requests
+spotipy
+python-dotenv
+lrctoolbox
