@@ -9,6 +9,6 @@ Go to [the Spotify Developer Dashboard](https://developer.spotify.com/dashboard)
   
 ![guide](https://github.com/user-attachments/assets/e15e40bb-bf15-4e14-a2a6-863688efcd02)  
 And replace the placeholders with the 2 values you copied into the .env file  
-Start Spotify if on Windows, or install and start [spotifyd](https://github.com/Spotifyd/spotifyd) if on Linux/MacOS/a UNIX system 
+Start Spotify if on Windows, or install and start [spotifyd](https://github.com/Spotifyd/spotifyd) if on Linux/MacOS/a UNIX system  
 Install the dependencies using `$ pip install -r requierements.txt`  
-Run `$ python main.py` and enjoy!
+Run `$ python main.py` and enjoy!  
