@@ -13,7 +13,14 @@ from urllib.parse import quote_plus
 from pprint import pprint
 import requests
 from lrctoolbox import SyncedLyrics
-
+import cutlet
+katsu = cutlet.Cutlet()
+def is_cjk(string):
+    return any([any([start <= ord(char) <= end for start, end in 
+                [(4352, 4607), (11904, 42191), (43072, 43135), (44032, 55215), 
+                 (63744, 64255), (65072, 65103), (65381, 65500), 
+                 (131072, 196607)]
+                ]) for char in string])
 lrchead = {'User-Agent': 'SpotifyCLI/0.0.1 (https://github.com/mgytr/SpotifyCLI)'}
 def scale_value(x, max_value=40, target_max=100):
     return (x / max_value) * target_max
@@ -284,7 +291,8 @@ class Spotify(App):
                 if not self.gettinglrc:
                     closest = get_closest(self.time, self.lyrics[2][0])
                     if closest and closest != last_displayed_lyric:
-                        elem.update(f'[green bold]{closest.text}[/]')  # Update the label with the new lyric
+
+                        elem.update(f'[green bold]{closest.text if not is_cjk(closest.text) else f"{closest.text} ({katsu.romaji(closest.text)})"}[/]')  # Update the label with the new lyric
                         last_displayed_lyric = closest  # Remember the last lyric displayed
             else:
                 elem.update(self.lyrics[2][0])  # If no synced lyrics, just display the plain ones
