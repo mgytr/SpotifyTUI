@@ -1,5 +1,5 @@
 # SpotifyTUI
-a CLI for Spotify (control only)  
+a TUI (Text-based User Interface) for Spotify (control only)  
   
 ![demo video of spotifytui](https://github.com/mgytr/SpotifyCLI/blob/main/demo.gif)
 
