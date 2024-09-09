@@ -1,7 +1,7 @@
-# SpotifyCLI
+# SpotifyTUI
 a CLI for Spotify (control only)  
   
-![demo video of spotifycli](https://github.com/mgytr/SpotifyCLI/blob/main/demo.gif)
+![demo video of spotifytui](https://github.com/mgytr/SpotifyCLI/blob/main/demo.gif)
 
 # Setup
 Firstly, ensure you have Spotify Premium, because this project relies on Spotify Web API  
