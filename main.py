@@ -21,7 +21,7 @@ def is_cjk(string):
                  (63744, 64255), (65072, 65103), (65381, 65500), 
                  (131072, 196607)]
                 ]) for char in string])
-lrchead = {'User-Agent': 'SpotifyCLI/0.0.1 (https://github.com/mgytr/SpotifyCLI)'}
+lrchead = {'User-Agent': 'SpotifyTUI/0.0.2 (https://github.com/mgytr/SpotifyTUI)'}
 def scale_value(x, max_value=40, target_max=100):
     return (x / max_value) * target_max
 
