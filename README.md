@@ -4,7 +4,7 @@ a TUI (Text-based User Interface) for Spotify (control only)
 ![demo video of spotifytui](https://github.com/mgytr/SpotifyCLI/blob/main/demo.gif)
 
 # Setup
-Firstly, ensure you have Spotify Premium, because this project relies on Spotify Web API  
+Firstly, ensure you have Spotify Premium, because this project relies on the Spotify Web API  
 Go to [the Spotify Developer Dashboard](https://developer.spotify.com/dashboard) and follow this guide  
   
 ![guide](https://github.com/user-attachments/assets/e15e40bb-bf15-4e14-a2a6-863688efcd02)  
